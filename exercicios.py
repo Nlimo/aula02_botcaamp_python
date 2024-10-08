@@ -22,14 +22,6 @@
 #print(f"A multiplicação entre eles é: {result3}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-num1 = int(input("Informe o primeiro número inteiro: "))
-num2 = int(input("Informe o primeiro segundo inteiro: "))
-
-result4 = num1 // num2
-
-print(f"O resultado da divisão inteira é: {result4}")
-
-
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
 # #### Números de Ponto Flutuante (`float`)
