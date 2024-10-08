@@ -124,6 +124,7 @@ r_var2 = var2.lower() == 'true'
 result = r_var1 and r_var2
 
 print(result)
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
