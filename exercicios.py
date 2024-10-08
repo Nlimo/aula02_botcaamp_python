@@ -154,6 +154,16 @@
 #print(result)
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+var1 = input("Digite um número: ")
+var2 = input("Digite mais um número: ")
+
+result19 = var1 == var2
+
+if result19 == True:
+    print(f"Os valores inseridos são iguais")
+else:
+    print(f"Os valores inseridos não são iguais")
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
