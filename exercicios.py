@@ -30,6 +30,12 @@
 #print(f"O resultado da divisão inteira é: {result4}")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+#num = int(input("Informe um número inteiro: "))
+
+#result5 = num ** 2
+
+#print(f"O quadrado do número é: {result5}")
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
