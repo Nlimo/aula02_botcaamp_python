@@ -1,6 +1,12 @@
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+num1 = float(input("Insira o primeiro número: "))
+num2 = float(input("Insira o segundo número: "))
+
+result1 = num1 + num2
+
+print(f"O resultado é {result1}")
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
@@ -33,7 +39,7 @@
 # #### try-except e if
 
 # 21: Conversor de Temperatura
-# 22: Verificador de Palíndromo
 # 23: Calculadora Simples
+# 22: Verificador de Palíndromo
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
