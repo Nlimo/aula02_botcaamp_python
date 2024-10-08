@@ -105,16 +105,25 @@
 #print(result14[2])
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-var1 = input("Escreva uma palavra ou frase: ")
-var2 = input("Escreva outra palavra ou frase: ")
+#var1 = input("Escreva uma palavra ou frase: ")
+#var2 = input("Escreva outra palavra ou frase: ")
 
-result14 = var1 + " " + var2
+#result14 = var1 + " " + var2
 
-print(result14)
+#print(result14)
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+var1 = input("Digite a primeira expressão booleana (True ou False): ")
+var2 = input("Digite a segunda expressão booleana (True ou False): ")
+
+r_var1 = var1.lower() == 'true'
+r_var2 = var2.lower() == 'true'
+
+result = r_var1 and r_var2
+
+print(result)
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
