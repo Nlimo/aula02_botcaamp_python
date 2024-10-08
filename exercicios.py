@@ -31,7 +31,6 @@
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
-
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
