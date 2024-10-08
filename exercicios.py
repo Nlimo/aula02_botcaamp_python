@@ -172,12 +172,21 @@
 
 #if result20 == True:
 #    print(f"Os valores inseridos não são diferentes")
-#else:#
+#else:
 #    print(f"Os valores inseridos são diferentes")
 
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+try:
+    celsius = float(input("Digite a temperatura em Celsius: "))
+    fahrenheit = (celsius * 9/5) + 32
+    print(f"{celsius}°C é igual a {fahrenheit}°F.")
+except ValueError:
+    print("Por favor, digite um número válido para a temperatura.")
+
+
+
 # 23: Calculadora Simples
 # 22: Verificador de Palíndromo
 # 24: Classificador de Números
