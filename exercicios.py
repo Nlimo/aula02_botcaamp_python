@@ -67,6 +67,13 @@
 #print(f"O resultado é {result8}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+var = float(input("Insira o a temperatura em celsius: "))
+
+fahrenheit = (var * 1.8) + 32 
+
+print(f"{var} em fahrenheit fica: {fahrenheit}")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 # #### Strings (`str`)
