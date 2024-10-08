@@ -137,6 +137,22 @@
 #print(result)
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+#var = input("Digite a expressão booleana (True ou False): ")
+
+#r_var = var.lower() == 'true'
+#
+#if r_var == True:
+#    r_var = False
+#else:
+#    r_var = True
+
+#print(f"O inverso do valor booleano inserido é: {r_var}")
+    
+
+#result = r_var1 or r_var2
+
+#print(result)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
