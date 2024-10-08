@@ -30,7 +30,6 @@
 #print(f"O resultado da divisão inteira é: {result4}")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-
 #num = int(input("Informe um número inteiro: "))
 
 #result5 = num ** 2
@@ -40,7 +39,6 @@
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
-
 #num1 = float(input("Insira o primeiro número: "))
 #num2 = float(input("Insira o segundo número: "))
 
@@ -49,7 +47,6 @@
 #print(f"O resultado é {result6}")
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-
 #num1 = float(input("Insira o primeiro número: "))
 #num2 = float(input("Insira o segundo número: "))
 
@@ -58,7 +55,6 @@
 #print(f"O resultado é {result7}")
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-
 #num1 = float(input("Insira o primeiro número (base): "))
 #num2 = float(input("Insira o segundo número (expoente): "))
 
@@ -67,7 +63,6 @@
 #print(f"O resultado é {result8}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-
 #var = float(input("Insira o a temperatura em celsius: "))
 
 #fahrenheit = (var * 1.8) + 32 
@@ -75,7 +70,6 @@
 #print(f"{var} em fahrenheit fica: {fahrenheit}")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-
 #raio_do_circulo = float(input("Digite o raio: "))
 
 #area_do_circulo = math.pi * raio_do_circulo ** 2
@@ -85,6 +79,13 @@
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+var = input("Digite uma palavra: ")
+
+result = var.upper()
+
+print(result)
+
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
