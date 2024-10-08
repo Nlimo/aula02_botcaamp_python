@@ -163,7 +163,6 @@ if result19 == True:
     print(f"Os valores inseridos são iguais")
 else:
     print(f"Os valores inseridos não são iguais")
-
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
