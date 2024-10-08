@@ -1,28 +1,36 @@
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-#num1 = float(input("Insira o primeiro número: "))
-#num2 = float(input("Insira o segundo número: "))
+#num1 = int(input("Insira o primeiro número: "))
+#num2 = int(input("Insira o segundo número: "))
 
 #result1 = num1 + num2
 
 #print(f"O resultado é {result1}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-#num = float(input("Insira um número: "))
+#num = int(input("Insira um número: "))
 #result2 = num % 5
 #print(f"O resto da divisão de {num} por 5 é: {result2}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-#num1 = float(input("Informe o primeiro número: "))
-#num2 = float(input("Informe o segundo número: "))
+#num1 = int(input("Informe o primeiro número: "))
+#num2 = int(input("Informe o segundo número: "))
 
 #result3 = num1 * num2
 
 #print(f"A multiplicação entre eles é: {result3}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+#num1 = int(input("Informe o primeiro número inteiro: "))
+#num2 = int(input("Informe o primeiro segundo inteiro: "))
+
+#result4 = num1 // num2
+
+#print(f"O resultado da divisão inteira é: {result4}")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
 
 # #### Números de Ponto Flutuante (`float`)
 
