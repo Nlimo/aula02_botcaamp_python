@@ -178,16 +178,36 @@
 # #### try-except e if
 
 # 21: Conversor de Temperatura
-try:
-    celsius = float(input("Digite a temperatura em Celsius: "))
-    fahrenheit = (celsius * 9/5) + 32
-    print(f"{celsius}°C é igual a {fahrenheit}°F.")
-except ValueError:
-    print("Por favor, digite um número válido para a temperatura.")
-
-
+#try:
+#    celsius = float(input("Digite a temperatura em Celsius: "))
+#    fahrenheit = (celsius * 9/5) + 32
+#    print(f"{celsius}°C é igual a {fahrenheit}°F.")
+#except ValueError:
+#    print("Por favor, digite um número válido para a temperatura.")
 
 # 23: Calculadora Simples
+#try:
+#    num1 = float(input("Insira o primeiro número: "))
+#    operacao = str(input("Insira o sinal da operação (+, -, /, x): "))
+#    num2 = float(input("Insira o segundo número: "))
+
+#    if operacao == '+':
+#        result = num1 + num2
+
+#    elif operacao == '-':
+#        result = num1 - num2
+
+#    elif operacao == '/':
+#        result = num1 / num2
+
+#    else:
+#        result = num1 * num2
+
+#except ValueError:
+#    print("Digite um valor valido")
+
+#print(f"O resultado de {num1} {operacao} {num2} = {result}")
+
 # 22: Verificador de Palíndromo
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
