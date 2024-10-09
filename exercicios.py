@@ -185,7 +185,7 @@
 #except ValueError:
 #    print("Por favor, digite um número válido para a temperatura.")
 
-# 23: Calculadora Simples
+# 22: Calculadora Simples
 #try:
 #    num1 = float(input("Insira o primeiro número: "))
 #    operacao = str(input("Insira o sinal da operação (+, -, /, x): "))
@@ -197,17 +197,40 @@
 #    elif operacao == '-':
 #        result = num1 - num2
 
-#    elif operacao == '/':
-#        result = num1 / num2
-
-#    else:
+#    elif operacao == '*':
 #        result = num1 * num2
+
+#    elif operacao == '/' and num2 != 0:
+#        result = num1 / num2
+    
+#    else:
+#        print("Operdador invalido, ou erro ao tentar dividir por 0")
 
 #except ValueError:
 #    print("Digite um valor valido")
 
 #print(f"O resultado de {num1} {operacao} {num2} = {result}")
 
-# 22: Verificador de Palíndromo
+# 23: Verificador de Palíndromo
 # 24: Classificador de Números
+#try:
+#    num = float(input("Digite um número: "))
+
+#    if num % 2 == 0:
+#        par_impar = 'par'
+#    else:
+#        par_impar = 'impar'
+
+#    if num > 0:
+#        p_n_z = 'positivo'
+#    elif num < 0:
+#        p_n_z = 'negativo'
+#    else:
+#        p_n_z = 'zero'
+
+#except ValueError:
+#    print("Insira um valor valido")
+
+#print(f"O número {num} é {p_n_z} e {par_impar}")
+
 # 25: Conversão de Tipo com Validação
